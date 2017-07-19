@@ -1,5 +1,5 @@
-CXX= clang++
-CXXFLAGS= -Wall -L/usr/local/lib -fopenmp -lomp
+CXX= icpc
+CXXFLAGS= -Wall -fopenmp
 
 PROGS= 00-hello \
        01-header-and-env \
