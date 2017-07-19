@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 #include <omp.h>
 
 #define CHUNK_SIZE 5
