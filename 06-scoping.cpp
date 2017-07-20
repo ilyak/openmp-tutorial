@@ -8,7 +8,7 @@ main()
 
 #pragma omp parallel default(none) private(a)
 {
-	int b = -2; // not visible outside this scope
+	int b; // not visible outside this scope; each thread has its own copy
 	a = omp_get_thread_num() + 100;
 	b = omp_get_thread_num() + 200;
 }
