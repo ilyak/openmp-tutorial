@@ -8,15 +8,15 @@ main()
 {
 #pragma omp section // independent thread
 	{
-		printf("thread %d\n", omp_get_thread_num());
+		printf("section 1, thread %d\n", omp_get_thread_num());
 	}
 #pragma omp section // independent thread
 	{
-		printf("thread %d\n", omp_get_thread_num());
+		printf("section 2, thread %d\n", omp_get_thread_num());
 	}
 #pragma omp section // independent thread
 	{
-		printf("thread %d\n", omp_get_thread_num());
+		printf("section 3, thread %d\n", omp_get_thread_num());
 	}
 	// printf("not in omp section"); // error - code must be in section
 }
