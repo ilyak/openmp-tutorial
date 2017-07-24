@@ -13,5 +13,5 @@ main()
 	return 0;
 }
 
-// XXX: why bad output?
+// XXX: why the output is mangled?
 // XXX: use std::stringstream to fix it

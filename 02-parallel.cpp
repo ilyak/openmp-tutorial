@@ -4,7 +4,7 @@
 int
 main()
 {
-#pragma omp parallel
+#pragma omp parallel // OpenMP parallel region
 {
 	// this will be executed in parallel by N threads
 	printf("Hello from thread %d of %d\n", omp_get_thread_num(),
@@ -14,4 +14,4 @@ main()
 }
 
 // XXX: execute with OMP_NUM_THREADS=2 and OMP_NUM_THREADS=3
-// XXX: add num_threads directive
+// XXX: add num_threads(5) to pragma omp parallel

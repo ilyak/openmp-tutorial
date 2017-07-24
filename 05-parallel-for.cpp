@@ -16,4 +16,4 @@ main()
 	return 0;
 }
 
-// XXX: omp parallel + omp for
+// XXX: create a separate "omp parallel" region with a for-loop in it

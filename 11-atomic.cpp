@@ -14,4 +14,4 @@ main()
 }
 
 // XXX: why the sum is incorrect?
-// XXX: make addition atomic
+// XXX: make addition atomic (omp atomic) to fix the bug

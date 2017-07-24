@@ -23,5 +23,5 @@ main()
 	return 0;
 }
 
-// XXX: play with chunk size
+// XXX: play with the chunk size
 // XXX: try dynamic scheduling, guided scheduling

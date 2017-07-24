@@ -15,4 +15,4 @@ main()
 
 // XXX: there are other reduction operations
 // XXX: reduction takes care of the scope
-// XXX: what happens when we try to make 'sum' shared
+// XXX: what happens when we try to make 'sum' variable shared

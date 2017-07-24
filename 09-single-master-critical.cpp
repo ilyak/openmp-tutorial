@@ -8,7 +8,7 @@
 int
 main()
 {
-#pragma omp parallel num_threads(4)
+#pragma omp parallel num_threads(8)
 {
 #pragma omp critical
 	std::cout << "Hello from thread " << omp_get_thread_num() << " of " <<
@@ -17,5 +17,5 @@ main()
 	return 0;
 }
 
-// XXX: change critical to single
-// XXX: change critical to master
+// XXX: what happens when we change "critical" to "single"?
+// XXX: what happens when we change "critical" to "master"?

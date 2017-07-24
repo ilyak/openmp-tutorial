@@ -17,5 +17,5 @@ main()
 	return 0;
 }
 
-// XXX: parallelize second loop
+// XXX: parallelize the second loop
 // XXX: why the result is incorrect and how to fix it?
