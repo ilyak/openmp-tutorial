@@ -11,13 +11,14 @@ PROGS= 00-hello \
        07-firstprivate \
        08-lastprivate \
        09-single-master-critical \
-       10-barrier \
-       11-atomic \
-       12-reduction \
-       13-scheduling \
-       14-ordered \
-       15-loop-dependencies \
-       16-sections
+       10-mutex \
+       11-barrier \
+       12-atomic \
+       13-reduction \
+       14-scheduling \
+       15-ordered \
+       16-loop-dependencies \
+       17-sections \
 
 all: $(PROGS)
 
