@@ -3,7 +3,7 @@
 
 #define CHUNK_SIZE 5
 
-// scheduling
+// scheduling:
 //   static  -> statically preassign iterations to threads
 //   dynamic -> each thread gets more work when its done at runtime
 //   guided  -> similar to dynamic with automatically adjusted chunk size

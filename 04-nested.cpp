@@ -20,4 +20,4 @@ main()
 }
 
 // XXX: try disabling nested parallelism
-// XXX: be careful - don't create too many threads
+// XXX: be careful - don't create too many threads in your programs
