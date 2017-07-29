@@ -6,8 +6,10 @@ main()
 {
 	int a = -1;
 
-#pragma omp parallel default(none) private(a)
+#pragma omp parallel
 {
+	// "a" is shared by default. All threads have access to the same "a".
+
 	int b; // not visible outside this scope; each thread has its own copy
 	a = omp_get_thread_num() + 100;
 	b = omp_get_thread_num() + 200;
@@ -17,4 +19,5 @@ main()
 	return 0;
 }
 
-// XXX: make 'a' shared
+// XXX: add default(none)
+// XXX: make "a" private
