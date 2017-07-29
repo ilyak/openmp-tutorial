@@ -18,7 +18,7 @@ PROGS= 00-hello \
        14-scheduling \
        15-ordered \
        16-loop-dependencies \
-       17-sections \
+       17-sections
 
 all: $(PROGS)
 
