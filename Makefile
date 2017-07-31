@@ -1,5 +1,5 @@
-CXX= icpc
-CXXFLAGS= -Wall -fopenmp
+CXX= g++
+CXXFLAGS= -fopenmp
 
 PROGS= 00-hello \
        01-header-and-env \
