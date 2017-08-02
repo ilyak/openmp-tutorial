@@ -1,5 +1,11 @@
 # OpenMP tutorial for the 2017 MolSSI Summer School
 
+### Getting the files
+
+Clone the git repository:
+
+	git clone https://github.com/ilyak/openmp-tutorial
+
 ### Compilation
 
 Adjust CXX (C++ compiler) and CXXFLAGS (compilation flags) in the Makefile if

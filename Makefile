@@ -1,5 +1,5 @@
 CXX= g++
-CXXFLAGS= -fopenmp
+CXXFLAGS= -Wall -fopenmp
 
 PROGS= 00-hello \
        01-header-and-env \
