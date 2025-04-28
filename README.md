@@ -1,10 +1,10 @@
-# OpenMP tutorial for the 2017 MolSSI Summer School
+# OpenMP tutorial for MolSSI Summer School
 
 ### Getting the files
 
 Clone the git repository:
 
-	git clone https://github.com/ilyak/openmp-tutorial
+	git clone https://github.com/ilyak/openmp-tutorial.git
 
 ### Compilation
 
@@ -23,6 +23,8 @@ To compile all programs:
 
 ### Useful links
 
-http://www.openmp.org/specifications/
+https://3ions.com/
+
+https://www.openmp.org/specifications/
 
 https://computing.llnl.gov/tutorials/openMP/
